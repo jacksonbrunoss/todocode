@@ -1,8 +1,11 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-
+import React from "react";
+import StyledGlobal from "./styles/styled.jsx";
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <StyledGlobal />
+    </div>
+  );
 }
 
 export default App;
